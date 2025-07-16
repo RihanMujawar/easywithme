@@ -1,0 +1,21 @@
+.glow-search {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 10px 14px;
+  border-radius: 30px;
+  box-shadow: 0 0 12px #0ff;
+  max-width: 300px;
+}
+.glow-search input {
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+  flex: 1;
+  padding: 6px;
+}
+.glow-search span {
+  color: #0ff;
+  font-size: 18px;
+}

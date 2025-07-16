@@ -1,0 +1,12 @@
+.card-profile {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 240px;
+}
+.card-profile img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

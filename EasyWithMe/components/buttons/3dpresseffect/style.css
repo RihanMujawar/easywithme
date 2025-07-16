@@ -1,0 +1,13 @@
+.btn-press {
+  padding: 12px 24px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #c66900;
+  transition: transform 0.1s;
+}
+.btn-press:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px #c66900;
+}

@@ -1,0 +1,21 @@
+.card-slider {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card-slider img {
+  width: 100%;
+  border-radius: 10px;
+}
+.slider-controls button {
+  margin: 6px 4px;
+  padding: 6px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

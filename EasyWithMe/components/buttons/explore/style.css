@@ -1,0 +1,19 @@
+.btn-icon {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.btn-icon span {
+  display: inline-block;
+  transform: translateX(-10px);
+  opacity: 0;
+  transition: all 0.3s;
+}
+.btn-icon:hover span {
+  transform: translateX(5px);
+  opacity: 1;
+}

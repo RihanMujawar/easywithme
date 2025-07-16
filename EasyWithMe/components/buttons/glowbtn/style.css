@@ -1,0 +1,12 @@
+.btn-glow {
+  padding: 12px 24px;
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+.btn-glow:hover {
+  box-shadow: 0 0 25px cadetblue;
+}

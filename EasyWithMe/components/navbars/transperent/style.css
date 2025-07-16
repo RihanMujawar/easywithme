@@ -1,0 +1,22 @@
+.glass-navbar {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.glass-navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.glass-navbar a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(120deg, #3a6186, #89253e);
+}
