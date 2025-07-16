@@ -1,0 +1,43 @@
+.clean-product {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  max-width: 300px;
+  font-family: "Segoe UI", sans-serif;
+}
+.clean-product img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.clean-product .info {
+  padding: 16px;
+}
+.clean-product h3 {
+  font-size: 17px;
+  margin: 0 0 6px;
+}
+.clean-product .price {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.clean-product .stars {
+  font-size: 18px;
+  color: #f4c150;
+  margin-bottom: 12px;
+}
+.clean-product button {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.clean-product button:hover {
+  background: #0056b3;
+}

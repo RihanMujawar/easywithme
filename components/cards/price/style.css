@@ -1,0 +1,29 @@
+.card-pricing {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  max-width: 300px;
+}
+.card-pricing img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card-pricing ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left;
+}
+.card-pricing li {
+  margin-bottom: 6px;
+}
+.card-pricing button {
+  background: #6a0dad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}

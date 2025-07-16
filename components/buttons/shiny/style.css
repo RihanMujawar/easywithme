@@ -1,0 +1,29 @@
+.btn-shine {
+  position: relative;
+  padding: 12px 28px;
+  font-size: 16px;
+  color: white;
+  background: #ff416c;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.btn-shine:hover {
+  transform: rotate(-1deg) scale(1.03);
+}
+.btn-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+  transform: skewX(-20deg);
+  transition: 0.75s;
+}
+.btn-shine:hover::before {
+  left: 130%;
+}

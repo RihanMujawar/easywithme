@@ -1,0 +1,26 @@
+.navbar-auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: #20232a;
+  color: white;
+  font-family: sans-serif;
+}
+.auth-buttons button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login {
+  background: transparent;
+  color: #61dafb;
+  border: 1px solid #61dafb;
+}
+.register {
+  background: #61dafb;
+  color: black;
+}

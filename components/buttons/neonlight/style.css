@@ -1,0 +1,13 @@
+.btn-neon {
+  padding: 12px 24px;
+  background: black;
+  color: #0ff;
+  border: 2px solid #0ff;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #0ff, 0 0 15px #0ff inset;
+  transition: 0.3s;
+}
+.btn-neon:hover {
+  box-shadow: 0 0 10px #0ff, 0 0 25px #0ff inset;
+}
